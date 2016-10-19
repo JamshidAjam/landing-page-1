@@ -100,15 +100,33 @@
 }
 
 #top-text {
-	border-bottom: 1px solid #eeeeee;
 	text-align: center;
 	margin: 1rem auto;
 }
 #content h2 {
-	/*display: inline-block;*/
+	border-bottom: 2px solid #eeeeee;
+	display: inline-block;
 	margin-top: 6rem;
 	text-align: center;
 	color: #8C51C7;
 	padding-bottom: 2rem;
+}
+#block-rows {
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.block {
+	width: 15rem;
+	color: #616161;
+	font-size: 1.3rem;
+	text-align: center;
+	margin: 1rem 5rem;
+	font-weight: bold;
+}
+.block p {
+	margin-top: 1rem;
 }
 
