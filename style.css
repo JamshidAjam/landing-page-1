@@ -99,11 +99,11 @@
 	box-shadow: none;
 }
 
-#top-text {
+.top-text {
 	text-align: center;
 	margin: 1rem auto;
 }
-#content h2 {
+.top-text h2 {
 	border-bottom: 2px solid #eeeeee;
 	display: inline-block;
 	margin-top: 6rem;
@@ -130,3 +130,38 @@
 	margin-top: 1rem;
 }
 
+#app-rows {
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#app-rows a, #bazaar a {
+	text-decoration: none;
+}
+#telegram {
+	background-color: #37ade9;
+	font-size: 1rem;
+	padding: 1rem;
+	height: 3rem;
+	color: #fff;
+	border-radius: 3rem;
+	margin-top: 5rem;
+	width: 8rem;
+	height: 1.5rem;	
+}
+#bazaar {
+	background-color: #71bd1e;
+	padding: 1rem;
+	height: 3rem;
+	color: #fff;	
+	border-radius: 3rem;
+	margin-top: 5rem;
+	width: 10rem;
+	height: 1.5rem;
+}
+#telegram img, #bazaar img {
+	width: 20%;
+	margin-top: -10px;
+}
