@@ -104,7 +104,7 @@
 	margin: 1rem auto;
 }
 .top-text h2 {
-	border-bottom: 2px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
 	display: inline-block;
 	margin-top: 6rem;
 	text-align: center;
@@ -164,4 +164,72 @@
 #telegram img, #bazaar img {
 	width: 20%;
 	margin-top: -10px;
+}
+
+#testimonials, #press-links {
+	margin-top: 6rem;
+	text-align: center;
+	color: #616161;
+}
+#testimonials h2, #press-links h2 {
+	font-weight: bold;
+}
+#feedbacks {
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin-top: 6rem;
+}
+.testimonial-blocks {
+	border: 0.1rem solid #dddddd;
+	width: 25rem;
+	margin: 0 5rem;
+	font-weight: bold;
+}
+.testimonial-blocks p {
+	padding: 2rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.testimonial-blocks .names {
+	margin-top: 2rem;
+	margin-right: 5rem;
+	float: right;
+}
+.testimonial-blocks img {
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+}
+#press-links {
+	background-color: #eee;
+}
+#press-links h2 {
+	padding-top: 6rem;
+	padding-bottom: 7rem;
+}
+#press-logos {
+	padding-bottom: 6rem;
+	-webkit-display: flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	display: block;
+}
+#press-logos img {
+	margin: 0 2.3rem;
+	opacity: 0.7;
+	width: 11%;
+}
+
+#resturant {
+	background: url(images/landing-2.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+	height: 30rem;
+	text-align: center;
 }
