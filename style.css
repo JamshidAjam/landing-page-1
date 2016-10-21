@@ -1,7 +1,7 @@
  * {
 	margin: 0;
 	padding: 0;
-	font-family: arial;
+	font-family: sans-serif;
 	direction: rtl;
 }
 
@@ -149,13 +149,13 @@
 	border-radius: 3rem;
 	margin-top: 5rem;
 	width: 8rem;
-	height: 1.5rem;	
+	height: 1.5rem;
 }
 #bazaar {
 	background-color: #71bd1e;
 	padding: 1rem;
 	height: 3rem;
-	color: #fff;	
+	color: #fff;
 	border-radius: 3rem;
 	margin-top: 5rem;
 	width: 10rem;
@@ -275,4 +275,29 @@
 #resturant-submit:hover {
 	background-color: #eeeeee;
 	cursor: pointer;
+}
+
+#social-links {
+	margin-top: 3rem;
+	border-bottom: 0.1rem solid #cccccc;
+	text-align: center;
+}
+#social-links a i {
+	color: #949494;
+	font-size: 2rem;
+	margin: 0 2rem;
+	margin-bottom: 2rem;
+}
+
+#footer-links {
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	display: block;
+}
+#footer-links a {
+	text-align: center;
+	color: #949494;
+	text-decoration: none;
+	margin-left: 2rem;
 }
